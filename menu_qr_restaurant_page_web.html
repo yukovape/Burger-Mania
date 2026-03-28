@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Restaurant</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1555992336-03a23c7b20ee') center/cover;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      background: rgba(0,0,0,0.6);
+      padding: 20px 40px;
+      border-radius: 15px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      margin: 30px 0 10px;
+      border-bottom: 2px solid #c59d5f;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 10px;
+      background: #1a1a1a;
+    }
+
+    .item div {
+      max-width: 70%;
+    }
+
+    .price {
+      color: #c59d5f;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #000;
+      font-size: 0.9rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      border-radius: 30px;
+      background: #c59d5f;
+      color: #000;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LE NOM DU RESTO</h1>
+</header>
+
+<div class="container">
+
+  <h2>Entrées</h2>
+  <div class="item">
+    <div>
+      <strong>Burrata</strong><br>
+      Tomates fraîches, pesto maison
+    </div>
+    <div class="price">9€</div>
+  </div>
+
+  <div class="item">
+    <div>
+      <strong>Carpaccio</strong><br>
+      Parmesan, roquette, citron
+    </div>
+    <div class="price">12€</div>
+  </div>
+
+  <h2>Plats</h2>
+  <div class="item">
+    <div>
+      <strong>Pâtes truffe</strong><br>
+      Sauce crémeuse, parmesan
+    </div>
+    <div class="price">18€</div>
+  </div>
+
+  <div class="item">
+    <div>
+      <strong>Pizza Diavola</strong><br>
+      Salami piquant, mozzarella
+    </div>
+    <div class="price">16€</div>
+  </div>
+
+  <h2>Desserts</h2>
+  <div class="item">
+    <div>
+      <strong>Tiramisu</strong><br>
+      Recette maison
+    </div>
+    <div class="price">8€</div>
+  </div>
+
+  <h2>Boissons</h2>
+  <div class="item">
+    <div>
+      <strong>Coca-Cola</strong></div>
+    <div class="price">3€</div>
+  </div>
+
+  <div class="item">
+    <div>
+      <strong>Eau pétillante</strong></div>
+    <div class="price">3€</div>
+  </div>
+
+  <a href="tel:+33123456789" class="btn">Appeler</a>
+
+</div>
+
+<footer>
+  Adresse du restaurant - Ouvert tous les jours
+</footer>
+
+</body>
+</html>
